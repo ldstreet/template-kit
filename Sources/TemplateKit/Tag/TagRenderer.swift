@@ -23,6 +23,7 @@ public var defaultTags: [String: TagRenderer] {
         "count": Count(),
         "set": Var(),
         "get": Raw(),
-        "date": DateFormat()
+        "date": DateFormat(),
+        "templatedModel": TemplatedModel()
     ]
 }
